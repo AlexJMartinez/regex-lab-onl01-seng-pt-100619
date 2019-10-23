@@ -2,7 +2,7 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   if word.match(/[^aeiou\W]/)
-    return true
+    true
   else
     false
   end
